@@ -25,7 +25,7 @@ Note: If you get the error "MSB3073	The command setlocal..." while building, go 
 - Andrea Solanas de Vicente
 - Michael Dey
 - Ankur Deria
-- Bendeg ́uz Tim ́ar
+- Bendeguz Timar
 
 ### References
 
