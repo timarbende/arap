@@ -1,31 +1,31 @@
-# INTERACTIVE ARAP
+# Interactive ARAP
 
 ***As-rigid-as-possible surface deformation* (ARAP)** project for the 3D Scanning and Motion Capture course WS2022-2023. This project is a re-implementation of Sorkine et al [[_1_]](https://igl.ethz.ch/projects/ARAP/arap_web.pdf). Our motivation for choosing this topic was that it is interactive and independent of additional hardware. In the [***report***](/Report.pdf), we review related work, the methods used for the algorithm, our results, and the conclusion, which includes the challenges we encountered, and our future work.
 
-### LOCAL ENVIRONMENT SETUP
+## SETUP
 
-You can easily download and run the project without installing a lot of libraries. Please use the following instructions to do so.
+**Requirements**
+- OpenGL
+- all other requirements are installed via the Cmake file
+- *(Optional)* You can run the project parallel with OpenMP
 
-- You need to have **OpenGL** installed on your system to build and run the project.
+Use CMAKE to generate Visual Studio solution with the following flags
 
-- The library, **[libigl](https://libigl.github.io/tutorial/)**, will be installed by itself when using the given CmakeLists file.
+![Config Flags](/image.png)
 
-- Use CMAKE to generate Visual Studio solution. Use the following flags in cmake config ![Config Flags](/image.png)
+## RUN
 
-- *(Optional)* If you have **OpenMP** installed on your system, the project will run in parallel.
+1. Open the generated solution in Visual Studio
+2. Set Startup Project to interactive_arap in the Solution Explorer
 
-### HOW TO RUN
-
-- Build and run the generated solution in Visual Studio after setting interactive_arap as Startup Project in the Solution Explorer. (Use Release version for better performance)
-
-Note: If you get the error "MSB3073	The command setlocal..." while building, go to interactive_arap Project Properties -> Build Events -> Post Build Events -> Delete set local command and apply  and build again.
+Note: If you get the error "MSB3073	The command setlocal..." while building, go to interactive_arap Project Properties -> Build Events -> Post Build Events -> Delete set local command, apply and build again.
 
 ### Contributors
 
-- Andrea Solanas de Vicente
-- Michael Dey
-- Ankur Deria
-- Bendeguz Timar
+- [Andrea Solanas de Vicente](andrea.solanasvicente@gmail.com)
+- [Ankur Deria](mailto:ankurderia1999@gmail.com)
+- [Bendeguz Timar](mailto:timar.bendi@gmail.com)
+- [Michael Dey](micha.eldey@yahoo.com)
 
 ### References
 
