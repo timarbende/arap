@@ -22,10 +22,10 @@ Note: If you get the error "MSB3073	The command setlocal..." while building, go 
 
 ### Contributors
 
-- [Andrea Solanas de Vicente](andrea.solanasvicente@gmail.com)
+- [Andrea Solanas de Vicente](mailto:andrea.solanasvicente@gmail.com)
 - [Ankur Deria](mailto:ankurderia1999@gmail.com)
 - [Bendeguz Timar](mailto:timar.bendi@gmail.com)
-- [Michael Dey](micha.eldey@yahoo.com)
+- [Michael Dey](mailto:micha.eldey@yahoo.com)
 
 ### References
 
